@@ -1,10 +1,79 @@
-<div style="position:relative;width:100%;max-width:853px;margin:0 auto;">
-<img src="https://drive.google.com/file/d/1nMOCfncxCFfVQRJoxVjMnFEVlz8E5dEv/view?usp=drivesdk" style="display:block;width:100%;height:auto;border:0;">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sapouni Shop - Links</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background-color: #121212;
+      color: #ffffff;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .profile-container {
+      position: relative;
+      width: 100%;
+      max-width: 853px;
+      margin: 0 auto;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+      border-radius: 12px;
+      overflow: hidden;
+      background-color: #1e1e1e;
+    }
+    .profile-banner {
+      display: block;
+      width: 100%;
+      height: auto;
+      border: 0;
+    }
+    .link-button {
+      position: absolute;
+      left: 12%;
+      width: 76%;
+      height: 9.5%;
+      display: block;
+      border-radius: 8px;
+      transition: background-color 0.2s ease, transform 0.1s ease;
+    }
+    .link-button:hover {
+      background-color: rgba(255, 255, 255, 0.1);
+      transform: scale(1.01);
+    }
+    .btn-facebook {
+      top: 51.8%;
+    }
+    .btn-whatsapp {
+      top: 62.4%;
+    }
+    .btn-instagram {
+      top: 72.9%;
+    }
+  </style>
+</head>
+<body>
 
-<a href="https://www.facebook.com/profile.php?id=100032267242486&mibextid=ZbWKwL" target="_blank" style="position:absolute;left:12%;top:51.8%;width:76%;height:9.5%;display:block;"></a>
+  <div class="profile-container">
+    <!-- Note: Replace the src below with a direct image link if Google Drive image hotlinking restricts direct display -->
+    <img src="https://drive.google.com/uc?export=view&id=1nMOCfncxCFfVQRJoxVjMnFEVlz8E5dEv" alt="Sapouni Shop Banner" class="profile-banner">
 
-<a href="https://wa.me/96170895908" target="_blank" style="position:absolute;left:12%;top:62.4%;width:76%;height:9.5%;display:block;"></a>
+    <!-- Facebook Link -->
+    <a href="https://www.facebook.com/profile.php?id=100032267242486&mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer" class="link-button btn-facebook" aria-label="Facebook"></a>
 
-<a href="https://www.instagram.com/sapouni_shop?igsh=c2JkYWtveG9pbGFs" target="_blank" style="position:absolute;left:12%;top:72.9%;width:76%;height:9.5%;display:block;"></a>
+    <!-- WhatsApp Link -->
+    <a href="https://wa.me/96170895908" target="_blank" rel="noopener noreferrer" class="link-button btn-whatsapp" aria-label="WhatsApp"></a>
 
-</div>
+    <!-- Instagram Link -->
+    <a href="https://www.instagram.com/sapouni_shop?igsh=c2JkYWtveG9pbGFs" target="_blank" rel="noopener noreferrer" class="link-button btn-instagram" aria-label="Instagram"></a>
+  </div>
+
+</body>
+</html>
